@@ -1,6 +1,5 @@
-import Image from 'next/legacy/image';
-import Layout from '../components/layout';
-import ListCategory from '../components/molecules/ListCategory';
+import Layout from '@/components/layout';
+import ListCategory from '@/components/molecules/ListCategory';
 import type { NextPage } from 'next';
 
 const Home: NextPage = () => {

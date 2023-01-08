@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Header from '../molecules/Header';
+import Header from '@/components/molecules/Header';
 import React from 'react';
 
 interface IProps {

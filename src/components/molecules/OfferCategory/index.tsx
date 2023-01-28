@@ -10,7 +10,7 @@ const OfferCategory = () => {
         <Thunder />
         <span className="pl-2">Flash Sale</span>
       </h2>
-      <p className="py-3">
+      <p className="pb-3">
         Berakhir dalam <span className="bg-red-500 p-1 rounded-md text-white">01</span> :{' '}
         <span className="bg-red-500 p-1 rounded-md text-white">26</span> :{' '}
         <span className="bg-red-500 p-1 rounded-md text-white">57</span>

@@ -1,5 +1,5 @@
-import CardProduct from '@/components/atoms/CardProduct';
 import React from 'react';
+import CardProduct from '@/components/atoms/CardProduct';
 
 const ListCategory: React.FC = () => {
   return (

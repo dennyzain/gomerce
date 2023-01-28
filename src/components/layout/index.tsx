@@ -1,6 +1,7 @@
-import Head from 'next/head';
-import Header from '@/components/organisms/Header';
 import React from 'react';
+import Head from 'next/head';
+import Footer from '@/components/organisms/Footer';
+import Header from '@/components/organisms/Header';
 
 interface IProps {
   children: React.ReactNode;
@@ -18,6 +19,7 @@ const Layout: React.FC<IProps> = ({ children }) => {
       <main>
         <Header />
         {children}
+        <Footer />
       </main>
     </>
   );

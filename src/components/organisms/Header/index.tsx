@@ -1,6 +1,6 @@
+import React from 'react';
 import Image from 'next/image';
 import Input from '@/components/atoms/Input';
-import React from 'react';
 
 const Header: React.FC = () => {
   return (

@@ -1,8 +1,9 @@
+import type { NextPage } from 'next';
 import Hero from '@/components/molecules/Hero';
 import Layout from '@/components/layout';
 import ListCategory from '@/components/molecules/ListCategory';
-import type { NextPage } from 'next';
 import OfferCategory from '@/components/molecules/OfferCategory';
+import Partners from '@/components/molecules/Partners';
 
 const Home: NextPage = () => {
   return (
@@ -10,6 +11,7 @@ const Home: NextPage = () => {
       <Hero />
       <ListCategory />
       <OfferCategory />
+      <Partners />
     </Layout>
   );
 };

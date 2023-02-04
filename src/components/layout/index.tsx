@@ -2,6 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import Footer from '@/components/organisms/Footer';
 import Header from '@/components/organisms/Header';
+import Navbar from '@/components/molecules/Navbar';
 
 interface IProps {
   children: React.ReactNode;
@@ -20,6 +21,7 @@ const Layout: React.FC<IProps> = ({ children }) => {
         <Header />
         {children}
         <Footer />
+        <Navbar/>
       </main>
     </>
   );

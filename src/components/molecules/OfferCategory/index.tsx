@@ -2,7 +2,7 @@ import React from 'react';
 import CardProduct from '@/components/atoms/CardProduct';
 import Thunder from '@/icon/thunder-icon.svg';
 
-const OfferCategory = () => {
+const OfferCategory:React.FC = () => {
   return (
     <div className="bg-blue-500 p-6 text-white">
       <h2 className="pb-2">Penawaran Menarik</h2>
